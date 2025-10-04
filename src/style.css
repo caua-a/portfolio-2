@@ -30,7 +30,8 @@ header {
   flex-direction: row;
   justify-content: center;
   gap: 50px;
-  width: 300px;
+  padding: 1%;
+  width: auto;
   height: 40px;
   background: rgb(64, 0, 0);
   align-items: center;
@@ -136,7 +137,7 @@ section {
   position: relative;
   border: none;
   width: 35%;
-  height: 30px;
+  height: 15%;
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
