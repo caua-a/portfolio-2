@@ -112,9 +112,10 @@ section {
 }
 .project-card {
   display: flex;
-  text-align: center;
-  width: 20%;
-  height: 70%;
+  text-align:center;
+  line-height: 200%;
+  width: 30%;
+  height: 80%;
   background: #242424;
   border-radius: 40px;
   color: aliceblue;
@@ -131,17 +132,20 @@ section {
   font-size: 40px;
 }
 .project-card p {
-  margin: 20px 0px;
+  margin: 40px 0px;
 }
-.but-project {
+.but-project{
   position: relative;
+  display: inline-block;
+  align-content: center;
+  text-decoration: none;
   border: none;
   width: 35%;
-  height: 15%;
+  height: 10%;
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
-  background: rgba(255, 0, 0, 0.219);
+  background: rgb(64, 0, 0);
   color: aliceblue;
 }
 
@@ -159,10 +163,80 @@ section {
 }
 .title-projects span {
   color: transparent;
-  -webkit-text-stroke: 0.4px rgba(240, 248, 255, 0.305);
+  -webkit-text-stroke:1px rgba(240, 248, 255, 0.219);
   padding: 4px 8px;
   border-radius: 5px;
   display: inline-block;
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 30px;
+}
+
+.contact{
+  display: flex;
+
+  
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: transparent;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 1px solid red;
+  border-radius: 5px;
+  font-size: 16px;
+  background:transparent;
+}
+
+button {
+  padding: 10px 20px;
+  background: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ffffff;
+  color: #ff0000;
+}
+
+.title-contact {
+  position: absolute;
+  color: transparent;
+  display: flex;
+  left: 15%;
+  font-size: 150px;
+  z-index: 0;
+}
+.title-contact span {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(240, 248, 255, 0.24);
+  padding: 4px 8px;
+  border-radius: 5px;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 30px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(64, 0, 0);
+  width: 100%;
+  height: 10vh;
+}
+.data p{
+  color: #eeeeee;
 }
